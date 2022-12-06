@@ -10,7 +10,6 @@ public class CreateConnection {
 
 	@Bean(name="beanConnection")
 	public Connection getConnection() {
-		
 		Connection connection = new Connection();
 		connection.setDb("mySql");
 		connection.setUrl("localhost");
